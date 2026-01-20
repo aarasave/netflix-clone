@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+.main{
+    background-image:url("img/bg.jpg");
+    height: 644px;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    border-radius: 40px;
+    margin: 0px 50px 50px 50px;
+}
+.main .bg{
+    opacity: 0.78;
+    height: 644px;
+    position: absolute;
+    border-radius: 40px;
+    width: 100%;
+    background-color: black;
+    top: 0;
+}
+.logo{
+    z-index: 10;
+}
+.btn{
+    color: white;
+    background-color: black;
+    border-color: white;
+    border-width: 1px;
+    font-size: medium;
+    padding: 5px 25px;
+}
+.btnbtn{
+    color: white;
+    background-color: red;
+    font-size: medium;
+    padding: 5px 12px;
+    border-radius: 3px;
+    margin-left: 10px;
+    border-color: red;
+}
+nav{
+    margin:0px 100px 0px 100px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.box{
+    z-index: 10;
+    position: relative;
+    padding: 100px 400px 300px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+.box> :nth-child(1){
+    font-size: 58px;
+    z-index: 10;
+    font-weight:850;
+}
+.box> :nth-child(2){
+    font-size: 23px;
+    z-index: 10;
+    text-align: center;
+    font-weight:50
+}
+.box> :nth-child(3){
+    font-size: 16px;
+    z-index: 10;
+    text-align: center;
+    font-weight:30;
+    padding-top: 30px;
+}
+.box-btn{
+    padding:20px 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box-btn> :nth-child(1){
+    padding:20px 170px 20px 10px;
+    background-color: black;
+    font-size: 13px;
+    color: grey;
+    font-weight:bold;
+    border: 1px solid rgb(69, 68, 68);
+    border-radius: 3px;
+}
+.box-btn> :nth-child(2){
+    padding:10px 30px;
+    background-color: red;
+    font-size: 26px;
+    color: white;
+    border-radius: 3px;
+}
+
+.row{
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    margin:0px 00px 0px 100px;
+    background-color: black;
+}
+.row::-webkit-scrollbar{
+    display: none;
+}
+.row img{
+    flex-shrink: 0;
+    height: 190px;
+    width:160px;
+    transition: transform 0.3s ease;
+    flex:0 0 22.666666667%;
+    margin-right: 30px;
+}
+.numbers{
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-weight: bolder;
+    z-index: 10;
+    position: absolute;
+    font-size: 80px;
+    margin-top: 100px;
+    margin-left: -15px;
+}
+.first{
+     margin:20px 100px 0px 100px;
+     color: white;
+     font-size: 30px;
+     font-family:sans-serif;
+     padding: 20px 0px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 16px;
+}
+.first-box{
+     margin:00px 20px 0px 100px;
+     background-color: rgb(2, 2, 58);
+     display: flex;
+     flex-direction: column;
+     height:250px;
+     width:300px;
+     border-radius: 13px;
+}
+.second-box{
+     background-color: rgb(2, 2, 58);
+     display: flex;
+     flex-direction: column;
+     margin:0px 00px 0px 00px;
+     height:250px;
+     width:300px;
+     border-radius: 13px;
+}
+.third-box{
+     background-color: rgb(2, 2, 58);
+     display: flex;
+     flex-direction: column;
+     margin:0px 20px 0px 20px;
+     height:250px;
+     width:300px;
+     border-radius: 13px;
+}
+.fourth-box{
+     background-color: rgb(2, 2, 58);
+     display: flex;
+     flex-direction: column;
+     margin:0px 100px 0px 00px;
+     height:250px;
+     width:300px;
+     border-radius: 13px;
+}
+.first-box>:nth-child(1){
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px;
+}
+.second-box>:nth-child(1){
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px;
+}
+.third-box>:nth-child(1){
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px;
+}
+.fourth-box>:nth-child(1){
+    font-size: 30px;
+    color: white;
+    padding: 20px 20px;
+}
+.first-box>:nth-child(2){
+    padding: 0px 20px;
+}
+.second-box>:nth-child(2){
+    padding: 0px 20px;
+}
+.third-box>:nth-child(2){
+    padding: 0px 20px;
+}
+.fourth-box>:nth-child(2){
+    padding: 0px 20px;
+}
+.first-box>:nth-child(3){
+   margin:40px 10px 10px 210px;
+}
+.second-box>:nth-child(3){
+    margin:8px 10px 10px 210px; 
+}
+.third-box>:nth-child(3){
+     margin:50px 10px 10px 210px;
+}
+.fourth-box>:nth-child(3){
+     margin:8px 10px 10px 210px;
+}
+.faq{
+    color: white;
+    font-family: sans-serif;
+    font-size: 24px;
+    margin: 10px 10px 3px 120px;
+    padding:40px 10px 20px 50px;
+}
+.faqbox{
+    color: white;
+    background-color: rgb(44, 44, 44);
+    margin: 10px 120px 3px 0px;
+    padding:30px 50px 30px 25px;
+    justify-content: space-between;
+    font-size: 22px;
+    display: flex;
+    cursor: pointer;
+    transition: all 1s ease-out;
+}
+.plus{
+    color: rgb(190, 187, 187);
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+.faqbox:hover{
+    color: white;
+    background-color: #414141;
+}
+.text{
+    font-size: 16px;
+    z-index: 10;
+    text-align: center;
+    font-weight:30;
+    color:white;
+    position: relative;
+    padding: 40px 400px 0px 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+.bt{
+    margin-left: 15px;
+}
+.bottom>:nth-child(2){
+    justify-content:center;
+}
+.footer{
+    flex-wrap: wrap;
+    margin: auto;
+    display: flex;
+    width: 80vw;
+    gap: 178px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;  
+    justify-content: center;
+    font-family: sans-serif;
+}
+.questions{
+    padding: 34px 140px;
+    color: rgb(183, 183, 183);
+    font-family: sans-serif;
+}
+
+footer a{
+     color: rgb(183, 183, 183);
+     font-size: 15px;
+}
+.btn2{
+    color: white;
+    background-color: black;
+    border-color: rgb(96, 95, 95);
+    border-width: 1px;
+    font-size: medium;
+    padding: 5px 25px;
+    border-radius: 3px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.two a{
+    color: blue;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+.one{
+    color: rgb(183, 183, 183);
+    font-size:16px ;
+    padding:50px 150px;
+    font-family: sans-serif;
+}
+.two{
+    color: grey;
+    font-size: 12px;
+    padding: 0px 150px;
+    font-family: sans-serif;
+}
+
+
+
